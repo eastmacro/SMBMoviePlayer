@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45D96981B3B994B00823D3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D96971B3B994B00823D3A /* main.m */; };
+		E45D969B1B3B994B00823D3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D969A1B3B994B00823D3A /* AppDelegate.m */; };
+		E45D969E1B3B994B00823D3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D969D1B3B994B00823D3A /* ViewController.m */; };
+		E45D96A11B3B994B00823D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45D969F1B3B994B00823D3A /* Main.storyboard */; };
+		E45D96A31B3B994B00823D3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45D96A21B3B994B00823D3A /* Images.xcassets */; };
+		E45D96A61B3B994B00823D3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45D96A41B3B994B00823D3A /* LaunchScreen.xib */; };
+		E45D96B21B3B994B00823D3A /* SMBMoviePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D96B11B3B994B00823D3A /* SMBMoviePlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45D96AC1B3B994B00823D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E45D968A1B3B994B00823D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45D96911B3B994B00823D3A;
+			remoteInfo = SMBMoviePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E45D96921B3B994B00823D3A /* SMBMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMBMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45D96961B3B994B00823D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45D96971B3B994B00823D3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E45D96991B3B994B00823D3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E45D969A1B3B994B00823D3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E45D969C1B3B994B00823D3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E45D969D1B3B994B00823D3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E45D96A01B3B994B00823D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E45D96A21B3B994B00823D3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E45D96A51B3B994B00823D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E45D96AB1B3B994B00823D3A /* SMBMoviePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMBMoviePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45D96B01B3B994B00823D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45D96B11B3B994B00823D3A /* SMBMoviePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMBMoviePlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E45D968F1B3B994B00823D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D96A81B3B994B00823D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E45D96891B3B994B00823D3A = {
+			isa = PBXGroup;
+			children = (
+				E45D96941B3B994B00823D3A /* SMBMoviePlayer */,
+				E45D96AE1B3B994B00823D3A /* SMBMoviePlayerTests */,
+				E45D96931B3B994B00823D3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E45D96931B3B994B00823D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E45D96921B3B994B00823D3A /* SMBMoviePlayer.app */,
+				E45D96AB1B3B994B00823D3A /* SMBMoviePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45D96941B3B994B00823D3A /* SMBMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E45D96991B3B994B00823D3A /* AppDelegate.h */,
+				E45D969A1B3B994B00823D3A /* AppDelegate.m */,
+				E45D969C1B3B994B00823D3A /* ViewController.h */,
+				E45D969D1B3B994B00823D3A /* ViewController.m */,
+				E45D969F1B3B994B00823D3A /* Main.storyboard */,
+				E45D96A21B3B994B00823D3A /* Images.xcassets */,
+				E45D96A41B3B994B00823D3A /* LaunchScreen.xib */,
+				E45D96951B3B994B00823D3A /* Supporting Files */,
+			);
+			path = SMBMoviePlayer;
+			sourceTree = "<group>";
+		};
+		E45D96951B3B994B00823D3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45D96961B3B994B00823D3A /* Info.plist */,
+				E45D96971B3B994B00823D3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45D96AE1B3B994B00823D3A /* SMBMoviePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E45D96B11B3B994B00823D3A /* SMBMoviePlayerTests.m */,
+				E45D96AF1B3B994B00823D3A /* Supporting Files */,
+			);
+			path = SMBMoviePlayerTests;
+			sourceTree = "<group>";
+		};
+		E45D96AF1B3B994B00823D3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45D96B01B3B994B00823D3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E45D96911B3B994B00823D3A /* SMBMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45D96B51B3B994B00823D3A /* Build configuration list for PBXNativeTarget "SMBMoviePlayer" */;
+			buildPhases = (
+				E45D968E1B3B994B00823D3A /* Sources */,
+				E45D968F1B3B994B00823D3A /* Frameworks */,
+				E45D96901B3B994B00823D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMBMoviePlayer;
+			productName = SMBMoviePlayer;
+			productReference = E45D96921B3B994B00823D3A /* SMBMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E45D96AA1B3B994B00823D3A /* SMBMoviePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45D96B81B3B994B00823D3A /* Build configuration list for PBXNativeTarget "SMBMoviePlayerTests" */;
+			buildPhases = (
+				E45D96A71B3B994B00823D3A /* Sources */,
+				E45D96A81B3B994B00823D3A /* Frameworks */,
+				E45D96A91B3B994B00823D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45D96AD1B3B994B00823D3A /* PBXTargetDependency */,
+			);
+			name = SMBMoviePlayerTests;
+			productName = SMBMoviePlayerTests;
+			productReference = E45D96AB1B3B994B00823D3A /* SMBMoviePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E45D968A1B3B994B00823D3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = yangjie6020;
+				TargetAttributes = {
+					E45D96911B3B994B00823D3A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E45D96AA1B3B994B00823D3A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E45D96911B3B994B00823D3A;
+					};
+				};
+			};
+			buildConfigurationList = E45D968D1B3B994B00823D3A /* Build configuration list for PBXProject "SMBMoviePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E45D96891B3B994B00823D3A;
+			productRefGroup = E45D96931B3B994B00823D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45D96911B3B994B00823D3A /* SMBMoviePlayer */,
+				E45D96AA1B3B994B00823D3A /* SMBMoviePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E45D96901B3B994B00823D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45D96A11B3B994B00823D3A /* Main.storyboard in Resources */,
+				E45D96A61B3B994B00823D3A /* LaunchScreen.xib in Resources */,
+				E45D96A31B3B994B00823D3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D96A91B3B994B00823D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45D968E1B3B994B00823D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45D969E1B3B994B00823D3A /* ViewController.m in Sources */,
+				E45D969B1B3B994B00823D3A /* AppDelegate.m in Sources */,
+				E45D96981B3B994B00823D3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D96A71B3B994B00823D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45D96B21B3B994B00823D3A /* SMBMoviePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45D96AD1B3B994B00823D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E45D96911B3B994B00823D3A /* SMBMoviePlayer */;
+			targetProxy = E45D96AC1B3B994B00823D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E45D969F1B3B994B00823D3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45D96A01B3B994B00823D3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E45D96A41B3B994B00823D3A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E45D96A51B3B994B00823D3A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E45D96B31B3B994B00823D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E45D96B41B3B994B00823D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E45D96B61B3B994B00823D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMBMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E45D96B71B3B994B00823D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMBMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E45D96B91B3B994B00823D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMBMoviePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBMoviePlayer.app/SMBMoviePlayer";
+			};
+			name = Debug;
+		};
+		E45D96BA1B3B994B00823D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMBMoviePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMBMoviePlayer.app/SMBMoviePlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E45D968D1B3B994B00823D3A /* Build configuration list for PBXProject "SMBMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45D96B31B3B994B00823D3A /* Debug */,
+				E45D96B41B3B994B00823D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45D96B51B3B994B00823D3A /* Build configuration list for PBXNativeTarget "SMBMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45D96B61B3B994B00823D3A /* Debug */,
+				E45D96B71B3B994B00823D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E45D96B81B3B994B00823D3A /* Build configuration list for PBXNativeTarget "SMBMoviePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45D96B91B3B994B00823D3A /* Debug */,
+				E45D96BA1B3B994B00823D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E45D968A1B3B994B00823D3A /* Project object */;
+}
